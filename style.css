@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f0f8ff;
+  color: #1e3a4c;
+  margin: 0;
+  padding: 32px 16px;
+}
+
+.container {
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #163a4f;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 1.15rem;
+  color: #163a4f;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #cce5f2;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(173, 216, 230, 0.25);
+}
+
+.form-group {
+  margin-bottom: 14px;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #b5d8e8;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #6bb5d8;
+  background-color: #f8fcff;
+}
+
+.btn-group {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 9px 18px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#btn-simpan {
+  background-color: #add8e6;
+  color: #163a4f;
+}
+
+#btn-simpan:hover {
+  background-color: #96cce0;
+}
+
+#btn-batal {
+  background-color: #e2e8f0;
+  color: #334155;
+}
+
+.hidden {
+  display: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th,
+td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #e1eff6;
+  text-align: left;
+  font-size: 14px;
+}
+
+th {
+  background-color: #add8e6;
+  color: #163a4f;
+}
+
+.center {
+  text-align: center;
+}
+
+.btn-edit {
+  background-color: #fde68a;
+  color: #78350f;
+  padding: 5px 10px;
+  margin-right: 4px;
+}
+
+.btn-hapus {
+  background-color: #fecaca;
+  color: #7f1d1d;
+  padding: 5px 10px;
+}
